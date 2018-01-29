@@ -1,0 +1,155 @@
+.container{
+	margin-top: 2%;
+	margin-bottom: 2%;
+}
+
+span{
+	font-size: 30px;
+}
+
+.play{
+	margin-top: 50%;
+	width: 100%;
+	height: 90px;
+}
+
+.fond1{
+    background: url('../img/puissance4.jpg');
+    background-size: 100% 100%;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+}
+
+.fond2{
+    background: url('../img/fond.jpg');
+    background-size: 100% 100%;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+}
+
+#map{
+	border: 1px solid #ffffff;
+	/*background-color: #0040FF;*/
+	background: url('../img/td.jpg');
+	border-radius: 2%;
+	padding: 0.5%;
+	width: 38%;
+	height: 100%;
+	margin: auto;
+	margin-top: 2.5%;
+}
+
+ td{
+	width: 60px;
+	height: 60px;
+	border: 3px solid #424242;
+	border-radius: 100px;
+	background-color: #ffffff;
+	box-shadow: 1px 1px 10px 2px rgba(0, 0, 0, 0.4) inset;
+}
+
+td:hover{
+	background-color: #D8D8D8;
+	transform: rotate3d(0, 2, 0 , 360deg);
+    transition: all 1s ease-out;
+}
+
+#div_principal{
+	margin-top: 5%;
+	width: 28%;
+	height: 100%;
+	margin: auto;
+	text-align: center;
+	border-radius: 2%;
+	background: url('../img/td.jpg');
+	color: #ffffff;
+	font-weight: bold;
+	border: 1px solid #ffffff;
+}
+
+#cercle{
+	padding: 1.5%;
+	width: 10%;
+	height: 30px;
+	border: 1px solid #ffffff;
+	border-radius: 50%;
+	/*background-color: #ffffff;*/
+	margin-top: 1%;
+	margin-bottom: 2%;
+}
+
+#messageGagnant{
+	text-align: center;
+	color: #ffffff;
+}
+
+#btn{
+	margin-top: 3%;
+	margin-bottom: 3%;
+	background: url('../img/btn.jpg');
+	/*transition:  all 1s ease-out;*/
+}
+
+#btn:hover{
+	box-shadow: 12px 8px 12px 0px rgba(255, 255, 255, 0.3); 
+	font-size: 16px;
+	transition: 1s;
+}
+
+#scorePlayer1{
+	border: 1.5px solid #000000;
+	border-radius: 5%;
+	padding: 0.8%;
+	/*background-color: red;*/
+	background: url('../img/scoreRed.jpg');
+	color: #ffffff;
+	text-align: center;
+}
+
+#scorePlayer1:hover{
+	box-shadow: 24px 12px 12px 0px rgba(255, 255, 255, 0.3); 
+	font-size: 16px;
+	transition: 1s;
+}
+
+#scorePlayer2{
+	border: 1.5px solid #000000;
+	border-radius: 5%;
+	padding: 0.8%;
+	/*background-color: yellow;*/
+	background: url('../img/scoreYellow.jpg');
+	color: #000000;
+	text-align: center;
+}
+
+#scorePlayer2:hover{
+	box-shadow: 24px 12px 12px 0px rgba(255, 255, 255, 0.3); 
+	font-size: 16px;
+	transition: 1s;
+}
+
+#animationRed{
+	width: 25%;
+	margin-top: -36%;
+	transition: 0.8s;
+}
+
+#animationYellow{
+	width: 25%;
+	margin-top: -44%;
+	transition: 0.8s;
+}
+
+.reset{
+	/*width: 15%;
+	height: 100%;
+	margin: auto;*/
+	margin-top: 5%;
+	margin-left: 42%;
+}
+
+.reset:hover{
+	box-shadow: 12px 8px 12px 0px rgba(255, 255, 255, 0.3); 
+	font-size: 20px;
+	transition: 1s;
+}
